@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(version: 2021_09_22_195537) do
     t.string "name"
     t.integer "user_id"
     t.string "image_url"
-    t.string "xp"
-    t.string "health"
+    t.integer "xp"
+    t.integer "health"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

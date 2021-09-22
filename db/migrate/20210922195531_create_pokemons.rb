@@ -4,8 +4,8 @@ class CreatePokemons < ActiveRecord::Migration[6.1]
       t.string :name
       t.integer :user_id
       t.string :image_url
-      t.string :xp
-      t.string :health
+      t.integer :xp
+      t.integer :health
 
       t.timestamps
     end

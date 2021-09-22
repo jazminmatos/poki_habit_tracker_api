@@ -4,3 +4,6 @@
 2021-09-22 15:56:49.507 EDT [18709] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2021-09-22 15:56:49.518 EDT [18710] LOG:  database system was shut down at 2021-07-15 23:55:08 EDT
 2021-09-22 15:56:49.526 EDT [18709] LOG:  database system is ready to accept connections
+2021-09-22 16:07:52.554 EDT [19082] ERROR:  column "xp" cannot be cast automatically to type integer
+2021-09-22 16:07:52.554 EDT [19082] HINT:  You might need to specify "USING xp::integer".
+2021-09-22 16:07:52.554 EDT [19082] STATEMENT:  ALTER TABLE "pokemons" ALTER COLUMN "xp" TYPE integer
