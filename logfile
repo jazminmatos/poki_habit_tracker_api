@@ -1,0 +1,6 @@
+2021-09-22 15:56:49.502 EDT [18709] LOG:  starting PostgreSQL 13.3 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-22 15:56:49.505 EDT [18709] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-22 15:56:49.505 EDT [18709] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-22 15:56:49.507 EDT [18709] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-22 15:56:49.518 EDT [18710] LOG:  database system was shut down at 2021-07-15 23:55:08 EDT
+2021-09-22 15:56:49.526 EDT [18709] LOG:  database system is ready to accept connections
