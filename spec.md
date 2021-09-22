@@ -1,6 +1,7 @@
 # React/Redux Project Requirements
 
-- []
+[]
+
 - []
 - []
 - []
