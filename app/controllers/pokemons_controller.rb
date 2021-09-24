@@ -5,13 +5,13 @@ class PokemonsController < ApplicationController
   def index
     pokemons = Pokemon.all
 
-    render json: pokemons
+    render json: pokemons, except: [:created_at, :updated_at]
   end
 
   # GET /pokemons/1
   def show
     pokemon = Pokemon.find(params[:id])
-    
+
     render json: pokemon
   end
 
