@@ -5,11 +5,13 @@ class UsersController < ApplicationController
   def index
     users = User.all
 
-    render json: users
+    render json: users, except: [:created_at, :updated_at], include: [:pokemons, :tasks]
   end
 
   # GET /users/1
   def show
+    user = User.find(params[:id])
+    
     render json: user
   end
 
